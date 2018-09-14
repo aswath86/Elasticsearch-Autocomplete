@@ -94,7 +94,7 @@ PUT /type_ahead/_mapping/doc_records?pretty=true
 }
 ```
 
-6. and load the extracted terms to the "type_ahead" index. Let's use the Bulk API to do this,
+6. and load the extracted terms to the "type_ahead" index. Let's use the Bulk API to do this. I'm only adding 10 records for this example
 
 [https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-bulk.html)
 
