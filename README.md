@@ -147,4 +147,6 @@ GET type_ahead/_search
 }
 ```
 
-8. Well, I have used "finally" at the penultimate step so I cannot use it again. Nevertheless, don't forget to improvise. 
+8. Well, I have used "finally" at the penultimate step so I cannot use it again, so,
+
+### As always, don't forget to improvise!
