@@ -49,7 +49,7 @@ In this example, I'm pulling 1000 terms that are minimum 4 characters long, excl
 You can do a whole lot of restriction and rules on this. Refer [https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html)
 
 ```
-POST /terms_extract/_search?pretty=true&size=0
+GET /terms_extract/_search?pretty=true&size=0
 {
   "aggs": {
     "genres": {
